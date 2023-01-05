@@ -382,7 +382,8 @@ text-align: center;
 .team-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-
+  
+  background-color: var(--first-title-color);
   overflow: hidden;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   
@@ -612,11 +613,6 @@ text-align: center;
   border-radius: 4px;
 }
 
-.btn-item:hover,
-.btn-item:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
 .btn {
  display: inline-block;
  padding: 12px 24px;
@@ -639,6 +635,7 @@ text-align: center;
 .btn:focus{
   background-color: var(--accent-color);
   color: var(--first-title-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .galery-list {
@@ -651,13 +648,13 @@ text-align: center;
 }
 .galery-item {
   width: calc((100% - 48px) / 3);
-  border-bottom: 1px solid #E7E9FC;
+  border: 1px solid #E7E9FC;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 
 .galery-item:hover,
 .galery-item:focus{
-  border: 0.5px solid #F4F4FD;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   
 }
